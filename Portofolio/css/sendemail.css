@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {  background: rgba(38,39,40,1); }
+form { max-width:420px; margin:50px auto; top: 200px;}
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #ffffff;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  margin-top: 19px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid grey; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:rgba(0,172,227,1);
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:rgb(255, 255, 255);
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  
+  font-weight:700;
+}
+[type="submit"]:hover { background: black; }
+
+.v307_111 {
+  width: 57px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 25px;
+  left: 228px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v307_112 {
+  width: 54px;
+color: rgba(255,255,255,1);
+position: absolute;
+top: 25px;
+left: 336px;
+font-family: Roboto;
+font-weight: Bold;
+font-size: 20px;
+opacity: 1;
+text-align: left;
+}
+
+.v307_113 {
+  width: 71px;
+  color: rgba(30,26,231,1);
+  position: absolute;
+  top: 25px;
+  left: 441px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v307_114 {
+  width: 66px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 23px;
+  left: 111px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 23px;
+  opacity: 1;
+  text-align: left;
+}
